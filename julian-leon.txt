@@ -42,7 +42,7 @@ https://codepen.io/jleon1992/pen/oNjpYvb
 
     15. How do I reference an id?
     #id
-    
+
     16. What is the difference between a section and a div
     a div is for is for stylistic purposes and should only be used when no other semantic elements can be used
 
@@ -119,7 +119,19 @@ https://codepen.io/jleon1992/pen/oNjpYvb
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    an inline element do not force a new line to start whereas a block element takes up a whole line. You cannot force a block element in an inline element.
+
+
     2. What happens when an element is positioned absolutely? 
+    The element is positioned absolutely to its first positioned parent element
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    give it a width property and a margin of auto
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block: 1. img, p, and h1
+    inline: span, button
+    inline-block: li with display property set as inline-block
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    An element has three surrounding parts first the padding which is defined by the amount of space between the border and the element, the border, and the margin which is the space surrounding the border.
